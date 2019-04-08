@@ -37,9 +37,19 @@ a:hover {
 	margin: 3em;
 }
 
+.fill {
+	width: 100%;
+}
+
 #logo {
 	font-weight: bold;
 	margin: auto;
+}
+
+#left {
+	font-weight: bold;
+	margin: 0;
+	margin-left: 1em;
 }
 
 .tab-section {
@@ -49,6 +59,10 @@ a:hover {
 .tabs {
 	font-family: "Avenir-med";
 	color: #0c6271;
+}
+
+.about-section {
+	padding-top:40px;
 }
 
 .tabs:hover {
