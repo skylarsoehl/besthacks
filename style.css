@@ -42,6 +42,10 @@ a:hover {
 	margin: auto;
 }
 
+.tab-section {
+	margin-top: 2em;
+}
+
 .tabs {
 	font-family: "Avenir-med";
 	color: #0c6271;
@@ -84,7 +88,11 @@ a:hover {
 }
 
 .section-img {
-	height: auto;
+	height: 500px;
+}
+
+.footer {
+	height: 150px;
 }
 
 .footer-link {
@@ -95,4 +103,25 @@ a:hover {
 
 .footer-link:hover {
 	color: #af8228;
+}
+
+.footer-items {
+	padding-top: 3em;
+}
+
+.preview-img {
+	position: relative;
+	width: 50%;
+}
+
+.preview-img:after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+
+.content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
