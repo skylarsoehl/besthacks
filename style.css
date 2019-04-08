@@ -1,0 +1,98 @@
+@font-face {
+	font-family: 'Avenir';
+	src: url('fonts/AvenirNextLTPro-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Avenir';
+	src: url('fonts/AvenirNextLTPro-Bold.otf');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Avenir-med';
+	src: url('fonts/AvenirNextLTPro-Medium.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Avenir';
+	src: url('fonts/AvenirNextLTPro-It.otf');
+	font-weight: normal;
+	font-style: italic;
+}
+
+body {
+	font-family: "Avenir";
+	color: #0c6271;
+}
+
+a:hover {
+	text-decoration: none;
+	transition: .02ms, ease;
+}
+
+.header {
+	margin: 3em;
+}
+
+#logo {
+	font-weight: bold;
+	margin: auto;
+}
+
+.tabs {
+	font-family: "Avenir-med";
+	color: #0c6271;
+}
+
+.tabs:hover {
+	color: #138c99;
+}
+
+.tab-bar {
+	background: #edb231;
+	height: 5em;
+}
+
+#tab-active {
+	font-family: "Avenir-med";
+	background: #ffffff;
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-right: -3em;
+	padding-right: -12em;
+	padding-bottom: .75em;
+}
+
+.tab-pos {
+	margin-top: 2.25em;
+}
+
+#tab-fix {
+	margin-top: 1em;
+	padding-right: -12em;
+}
+
+#t-active {
+	color: #edb231;
+}
+
+#t-active:hover {
+	color: #0c6271;
+}
+
+.section-img {
+	height: auto;
+}
+
+.footer-link {
+	font-family: "Avenir-med";
+	font-size: 30px;
+	color: #edb231;
+}
+
+.footer-link:hover {
+	color: #af8228;
+}
