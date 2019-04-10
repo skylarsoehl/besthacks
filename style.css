@@ -103,6 +103,7 @@ a:hover {
 
 .section-img {
 	height: 500px;
+	background-repeat: no-repeat;
 }
 
 .footer {
