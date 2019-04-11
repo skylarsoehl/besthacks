@@ -1,38 +1,31 @@
 @font-face {
-	font-family: 'Avenir';
+	font-family: 'Avenir-Regular';
 	src: url('fonts/AvenirNextLTPro-Regular.otf');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Avenir';
-	src: url('fonts/AvenirNextLTPro-Bold.otf');
-	font-weight: bold;
-	font-style: normal;
-}
-@font-face {
 	font-family: 'Avenir-Medium';
-	src: url('fonts/AvenirNextLTPro-Medium.ttf') format("truetype");
+	src: url('fonts/AvenirNextLTPro-Medium.ttf');
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Avenir';
+	font-family: 'Avenir-IT';
 	src: url('fonts/AvenirNextLTPro-It.otf');
 	font-weight: normal;
 	font-style: italic;
 }
 
 body {
-	font-family: Avenir LT Pro;
+	font-family: Avenir;
 	color: black;
 }
 
 h1 {
-
-font-style: normal;
-font-weight: 900;
-font-size: 48px;
-line-height: normal;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: normal;
 }
 
 a:hover {
@@ -41,7 +34,7 @@ a:hover {
 }
 
 .header {
-	margin: 3em;
+	margin: auto;
 }
 
 .fill {
@@ -65,12 +58,10 @@ a:hover {
 }
 
 .tabs {
-font-family: Avenir LT Pro;
-font-style: normal;
-font-weight: 900;
-font-size: 22px;
-line-height: normal;
-
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: normal;
 }
 
 .about-section {
@@ -117,7 +108,7 @@ margin-top: 1em;
 }
 
 .footer-link {
-	font-family: "Avenir-med";
+	font-family: Avenir-Medium;
 	font-size: 30px;
 	color: #73F9BC;
 }
@@ -166,7 +157,7 @@ line-height: normal;
 }
 
 .featured-subtitle {
-font-family: Avenir Next LT Pro;
+font-family: Avenir-Bold;
 font-style: normal;
 font-weight: 500;
 font-size: 30px;
@@ -182,4 +173,17 @@ line-height: normal;
 	margin-left: 3em;
 }
 
+.best-header {
+  text-align: center;
+}
 
+.column-fmt {
+  display: flex;
+  margin: 1em;
+  border: 3px red solid;
+}
+
+.paragraph {
+  margin: 1em;
+  font-size: 1.2em;
+}
