@@ -33,6 +33,52 @@ a:hover {
 	transition: .02ms, ease;
 }
 
+.about-header {
+	font-weight: bold;
+	font-size:40px;
+}
+
+.about-links {
+	margin-top:20px;
+}
+
+.about-subsection {
+	margin-top:70px;
+}
+
+.about-team-picture {
+	border-radius: 50%;
+	width:100%;
+}
+
+.about-images {
+	border-radius: 2px;
+}
+
+.team-bio {
+	margin-top: 50px;
+}
+
+.team-bio-text {
+	font-size: 20px;
+}
+
+#our-mission-head {
+	margin-top:70px;
+}
+
+#our-story-picture {
+	margin-top:100px;
+}
+
+#our-mission-text {
+	font-size: 35px;
+}
+
+#our-story-section {
+	margin-top:70px;
+}
+
 .header {
 	margin: auto;
 }
